@@ -33,8 +33,10 @@ const GameDetail = ({ pathId }) => {
     const getPlatform = (platform) => {
         switch(platform){
             case "PlayStation 4":
+            case "PlayStation 5":
                 return playstation;
             case "Xbox One":
+            case "Xbox Series S/X":
                 return xbox;
             case "PC":
                 return steam;
